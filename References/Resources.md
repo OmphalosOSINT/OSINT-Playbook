@@ -13,6 +13,7 @@
 | The OSINT Curious Project | Community & writeups | [osintcurio.us](https://osintcurio.us) |
 | OSINT Framework | Tools directory | [osintframework.com](https://osintframework.com) |
 | Trace Labs | CTF & community | [tracelabs.org](https://www.tracelabs.org) |
+| OSINT-FR | Tools, CTF & community | [OSINT-FR](https://www.osintfr.com)
 
 ---
 
