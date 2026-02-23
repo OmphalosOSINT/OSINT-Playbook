@@ -48,7 +48,7 @@
 - Look for linked accounts in bios and comments
 
 **FR**
--Documente toujours tes étapes avec des horodatages
+- Documente toujours tes étapes avec des horodatages
 -Fais des captures d’écran et archive avant qu’un profil ne disparaisse
 -Un pseudo réutilisé sur plusieurs plateformes est une source d'information cruciale
 -Vérifie les métadonnées des photos de profil (ExifTool)
