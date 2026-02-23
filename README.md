@@ -7,9 +7,9 @@
 
 ## 🇬🇧 About / 🇫🇷 À propos
 
-**EN** — This repository centralizes my tools, methodologies and best practices for OSINT investigations. It covers social media, dark web, geolocation and open-source intelligence.
+**EN** — This repository centralizes my tools, methodologies and best practices for OSINT investigations. It covers social media, dark web, geolocation, open-source intelligence, maritime, crypto, cyber breaches, corporate intelligence, threat intelligence, phone & telecom, image analysis, disinformation and aviation.
 
-**FR** — Ce repository centralise mes outils, méthodologies et bonnes pratiques en matière d'investigation OSINT. Il couvre les domaines des réseaux sociaux, du dark web, de la géolocalisation et des sources ouvertes.
+**FR** — Ce repository centralise mes outils, méthodologies et bonnes pratiques en matière d'investigation OSINT. Il couvre les réseaux sociaux, le dark web, la géolocalisation, les sources ouvertes, le maritime, la crypto, les fuites de données, l'intelligence corporate, la threat intelligence, le téléphone, l'analyse d'image, la désinformation et l'aviation.
 
 ---
 
@@ -21,7 +21,16 @@ OSINT-Playbook/
 │   ├── SocialMedia.md
 │   ├── DarkWeb.md
 │   ├── Geolocation.md
-│   └── OpenSources.md
+│   ├── OpenSources.md
+│   ├── Maritime.md
+│   ├── Crypto.md
+│   ├── CyberBreaches.md
+│   ├── CorporateIntelligence.md
+│   ├── ThreatIntelligence.md
+│   ├── PhoneTelecom.md
+│   ├── ImageMetadata.md
+│   ├── Disinformation.md
+│   └── Aviation.md
 ├── Methodology/
 │   ├── Investigation-Process.md
 │   └── Reporting-Template.md
@@ -48,24 +57,77 @@ OSINT-Playbook/
 | Shodan | Search engine for connected devices | [shodan.io](https://www.shodan.io) |
 | WHOIS | Domain registration information | [whois.domaintools.com](https://whois.domaintools.com) |
 | theHarvester | Email, domain and IP harvesting | [GitHub](https://github.com/laramies/theHarvester) |
-| Recon-ng | Modular reconnaissance framework | [GitHub](https://github.com/lanmaster53/recon-ng) |
 | Censys | Internet infrastructure scanning | [censys.io](https://censys.io) |
 
-### Search & Open Sources
+### Cyber & Breaches
 | Tool | Usage | Link |
 |------|-------|------|
-| Google Dorks | Advanced search using Google operators | — |
-| OSINT Framework | OSINT tools directory by category | [osintframework.com](https://osintframework.com) |
-| IntelTechniques | Custom search tools | [inteltechniques.com](https://inteltechniques.com) |
-| Wayback Machine | Web archives | [web.archive.org](https://web.archive.org) |
+| HaveIBeenPwned | Check email in known breaches | [haveibeenpwned.com](https://haveibeenpwned.com) |
+| DeHashed | Search leaked credentials | [dehashed.com](https://www.dehashed.com) |
+| IntelX | Search pastes, leaks, dark web | [intelx.io](https://intelx.io) |
+
+### Corporate Intelligence
+| Tool | Usage | Link |
+|------|-------|------|
+| OpenCorporates | Global company registry | [opencorporates.com](https://opencorporates.com) |
+| OCCRP Aleph | Leaked documents and corporate data | [aleph.occrp.org](https://aleph.occrp.org) |
+| ICIJ Offshore Leaks | Panama & Pandora Papers | [offshoreleaks.icij.org](https://offshoreleaks.icij.org) |
+| OpenSanctions | Global sanctions and PEP lists | [opensanctions.org](https://www.opensanctions.org) |
+
+### Maritime
+| Tool | Usage | Link |
+|------|-------|------|
+| MarineTraffic | Real-time AIS vessel tracking | [marinetraffic.com](https://www.marinetraffic.com) |
+| Equasis | Ship ownership and inspection records | [equasis.org](https://www.equasis.org) |
+| Windward | AI-powered maritime intelligence | [windward.ai](https://windward.ai) |
+
+### Crypto
+| Tool | Usage | Link |
+|------|-------|------|
+| Etherscan | Ethereum blockchain explorer | [etherscan.io](https://etherscan.io) |
+| Breadcrumbs | Free crypto transaction tracing | [breadcrumbs.app](https://www.breadcrumbs.app) |
+| Arkham Intelligence | On-chain entity identification | [arkhamintelligence.com](https://platform.arkhamintelligence.com) |
+
+### Threat Intelligence
+| Tool | Usage | Link |
+|------|-------|------|
+| VirusTotal | File, URL and domain reputation | [virustotal.com](https://www.virustotal.com) |
+| OTX AlienVault | Open threat intelligence community | [otx.alienvault.com](https://otx.alienvault.com) |
+| MalwareBazaar | Malware samples and IOC database | [bazaar.abuse.ch](https://bazaar.abuse.ch) |
 
 ### Geolocation / IMINT
 | Tool | Usage | Link |
 |------|-------|------|
-| GeoSpy | Image-based geolocation | [geospy.ai](https://geospy.ai) |
-| Google Earth Pro | Geospatial analysis | [earth.google.com](https://earth.google.com) |
+| GeoSpy | AI-based image geolocation | [geospy.ai](https://geospy.ai) |
 | SunCalc | Shadow analysis for dating images | [suncalc.org](https://www.suncalc.org) |
-| Overpass Turbo | Advanced OpenStreetMap queries | [overpass-turbo.eu](https://overpass-turbo.eu) |
+| Google Earth Pro | Geospatial analysis | [earth.google.com](https://earth.google.com) |
+
+### Phone & Telecom
+| Tool | Usage | Link |
+|------|-------|------|
+| PhoneInfoga | Advanced phone number OSINT | [GitHub](https://github.com/sundowndev/phoneinfoga) |
+| Truecaller | Caller ID and phone number search | [truecaller.com](https://www.truecaller.com) |
+
+### Image & Metadata
+| Tool | Usage | Link |
+|------|-------|------|
+| ExifTool | Extract metadata from images | [exiftool.org](https://exiftool.org) |
+| FotoForensics | Image authenticity analysis | [fotoforensics.com](https://fotoforensics.com) |
+| Deepware Scanner | Deepfake detection | [deepware.ai](https://deepware.ai) |
+
+### Disinformation & Influence Ops
+| Tool | Usage | Link |
+|------|-------|------|
+| Botometer | Twitter/X bot detection | [botometer.osome.iu.edu](https://botometer.osome.iu.edu) |
+| Hoaxy | Visualize spread of claims | [hoaxy.osome.iu.edu](https://hoaxy.osome.iu.edu) |
+| Sensity | Deepfake and synthetic media detection | [sensity.ai](https://sensity.ai) |
+
+### Aviation
+| Tool | Usage | Link |
+|------|-------|------|
+| FlightRadar24 | Real-time ADS-B flight tracking | [flightradar24.com](https://www.flightradar24.com) |
+| ADS-B Exchange | Unfiltered global ADS-B tracking | [adsbexchange.com](https://www.adsbexchange.com) |
+| Rzjets | Aircraft ownership and history | [rzjets.net](https://rzjets.net) |
 
 ---
 
@@ -93,6 +155,29 @@ OSINT-Playbook/
 - [Bellingcat Guides](https://www.bellingcat.com/category/resources/)
 - [IntelTechniques Blog](https://inteltechniques.com/blog/)
 - [The OSINT Curious Project](https://osintcurio.us)
+- [MITRE ATT&CK](https://attack.mitre.org)
+- [OCCRP](https://www.occrp.org)
+- [EU DisinfoLab](https://www.disinfo.eu)
+
+---
+
+## 🔗 Detailed Pages / Pages détaillées
+
+| Domain | Link |
+|--------|------|
+| 📱 Social Media | [Tools/SocialMedia.md](Tools/SocialMedia.md) |
+| 🌑 Dark Web | [Tools/DarkWeb.md](Tools/DarkWeb.md) |
+| 🌍 Geolocation / IMINT | [Tools/Geolocation.md](Tools/Geolocation.md) |
+| 📰 Open Sources | [Tools/OpenSources.md](Tools/OpenSources.md) |
+| ⚓ Maritime | [Tools/Maritime.md](Tools/Maritime.md) |
+| 💰 Crypto | [Tools/Crypto.md](Tools/Crypto.md) |
+| 💻 Cyber & Data Breaches | [Tools/CyberBreaches.md](Tools/CyberBreaches.md) |
+| 🏢 Corporate Intelligence | [Tools/CorporateIntelligence.md](Tools/CorporateIntelligence.md) |
+| 🎯 Threat Intelligence | [Tools/ThreatIntelligence.md](Tools/ThreatIntelligence.md) |
+| 📞 Phone & Telecom | [Tools/PhoneTelecom.md](Tools/PhoneTelecom.md) |
+| 🖼️ Image & Metadata | [Tools/ImageMetadata.md](Tools/ImageMetadata.md) |
+| 📢 Disinformation & Influence Ops | [Tools/Disinformation.md](Tools/Disinformation.md) |
+| ✈️ Aviation | [Tools/Aviation.md](Tools/Aviation.md) |
 
 ---
 
