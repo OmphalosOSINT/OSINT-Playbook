@@ -40,13 +40,22 @@
 
 ## 💡 Tips & Good Practices / Conseils
 
+**ENG**
 - Always document your steps with timestamps
 - Screenshot and archive before a profile disappears
 - A username reused across platforms is a major pivot point
 - Check metadata on profile pictures (ExifTool)
 - Look for linked accounts in bios and comments
 
+**FR**
+-Documente toujours tes étapes avec des horodatages
+-Fais des captures d’écran et archive avant qu’un profil ne disparaisse
+-Un pseudo réutilisé sur plusieurs plateformes est une source d'informations cruciale
+-Vérifie les métadonnées des photos de profil (ExifTool)
+-Recherche les comptes liés dans les bios et les commentaires
 ---
 
 ## ⚠️ Ethics reminder
 Always operate within legal boundaries. Never access private data or use findings to harass individuals.
+
+Agis toujours dans le respect du cadre légal. N’accède jamais à des données privées et n’utilise pas tes découvertes pour harceler des individus.
