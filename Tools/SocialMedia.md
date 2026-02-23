@@ -7,7 +7,7 @@
 ## 🛠️ Tools / Outils
 
 | Tool | Usage | Usages | Link |
-|------|-------|------|
+|------|-------|--------|------|
 | Sherlock | Username search across 300+ platforms | Recherche de pseudos sur plus de 300 plateformes | [GitHub](https://github.com/sherlock-project/sherlock) |
 | Maigret | Advanced profiling by username | Profiling avancé à partir des pseudos | [GitHub](https://github.com/soxoj/maigret) |
 | Holehe | Check if email is linked to accounts | Vérifie la concordance entre un pseudo et un email | [GitHub](https://github.com/megadose/holehe) |
