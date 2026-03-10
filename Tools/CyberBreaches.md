@@ -18,6 +18,10 @@
 | Shodan | Find exposed databases and services | [shodan.io](https://www.shodan.io) |
 | Censys | Identify misconfigured or exposed systems | [censys.io](https://censys.io) |
 | BreachDirectory | Free breach data lookup | [breachdirectory.org](https://breachdirectory.org) |
+| Pulsedive | Community-driven threat intelligence platform with MITRE ATT&CK enrichment | Plateforme de renseignement sur les menaces communautaire avec enrichissement MITRE ATT&CK | [pulsedive.com](https://pulsedive.com) |
+| ThreatBook | Intelligence-driven threat detection with deep APAC threat actor coverage | Détection de menaces pilotée par l'intelligence avec couverture approfondie des acteurs APAC | [threatbook.io](https://threatbook.io) |
+| Hudson Rock | Infostealer intelligence and compromised credentials database | Renseignement sur les infostealers et base de données de credentials compromis | [hudsonrock.com](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools) |
+| LeakRadar | Cleartext credential leak search across 290B+ records with real-time alerts | Recherche de credentials en clair sur 290 milliards d'enregistrements avec alertes temps réel | [leakradar.io](https://leakradar.io) |
 
 ---
 
