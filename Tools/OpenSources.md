@@ -18,6 +18,11 @@
 | OpenCorporates | Global company registry database | [opencorporates.com](https://opencorporates.com) |
 | Pappers | French company registry (France) | [pappers.fr](https://www.pappers.fr) |
 | Spokeo | People search engine (US-focused) | [spokeo.com](https://www.spokeo.com) |
+| NMapper | Online platform for network scanning and OSINT reconnaissance tools | Plateforme en ligne de scanning réseau et d'outils de reconnaissance OSINT | [nmmapper.com](https://www.nmmapper.com) |
+| C99 Subdomain Finder | Subdomain discovery with Cloudflare bypass detection and historical records | Découverte de sous-domaines avec détection de bypass Cloudflare et historique | [subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) |
+| SubdomainRadar | All-in-one subdomain enumeration, port scanning and vulnerability detection | Énumération de sous-domaines tout-en-un avec scan de ports et détection de vulnérabilités | [subdomainradar.io](https://subdomainradar.io) |
+| SecurityTrails | DNS history, subdomain enumeration and infrastructure intelligence | Historique DNS, énumération de sous-domaines et renseignement sur les infrastructures | [securitytrails.com](https://securitytrails.com) |
+| PugRecon | Passive subdomain enumeration database with billions of indexed records | Base de données passive d'énumération de sous-domaines avec des milliards d'entrées indexées | [pugrecon.com](https://pugrecon.com) |
 
 ---
 
