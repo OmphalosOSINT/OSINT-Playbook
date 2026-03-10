@@ -10,9 +10,17 @@
 |------|-------|--------|------|
 | IntelX | Search dark web, forums, paste sites | Recherches sur le darkweb, ses forums et ses paste sites | [intelx.io](https://intelx.io) |
 | Shodan | Identify exposed infrastructure and IoT | Identifie les infrastructures et objets connectés exposés | [shodan.io](https://www.shodan.io) |
+| Onyphe | Cyber threat intelligence and exposed infrastructure search | Recherche d'infrastructures exposées et renseignement sur les cybermenaces | [onyphe.io](https://www.onyphe.io) |
 | ZoomEye | Identify exposed infrastructure and IoT | Identifie les infrastructures et objets connectés exposés | [zoomeye.ai]((https://www.zoomeye.ai/)) |
 | Censys | Identify exposed infrastructure and IoT | Identifie les infrastructures et objets connectés exposés | [censys.com]((https://censys.com/)) |
 | GreyNoise | Internet scan traffic analysis and IP qualification | Analyse du trafic de scan internet et qualification des adresses IP | [greynoise.io](https://www.greynoise.io) |
+| FullHunt | External attack surface discovery and continuous monitoring | Découverte de la surface d'attaque externe et surveillance continue | [fullhunt.io](https://fullhunt.io) |
+| FOFA | Cyberspace mapping and exposed asset search | Cartographie du cyberespace et recherche d'actifs exposés | [fofa.info](https://fofa.info) |
+| LeakIX | Exposed services and active data leak detection | Détection des services exposés et des fuites de données actives | [leakix.net](https://leakix.net) |
+| SynapsInt | Unified OSINT search engine with multi-pivot capabilities | Moteur OSINT unifié avec capacités de pivoting multiples | [synapsint.com](https://synapsint.com) |
+| Criminal IP | AI-powered IP threat intelligence and risk scoring | Renseignement sur les menaces IP et scoring de risque par IA | [criminalip.io](https://www.criminalip.io) |
+| Quake 360 | Cyberspace mapping and infrastructure intelligence by Qihoo 360 | Cartographie du cyberespace et renseignement sur les infrastructures par Qihoo 360 | [quake.360.net](https://quake.360.net) |
+| Netlas | Internet-wide scanning, host intelligence and attack surface discovery | Scanner internet, renseignement sur les hôtes et découverte de la surface d'attaque | [netlas.io](https://app.netlas.io) |
 | VirusTotal | File, URL and domain reputation analysis | Analyse de la réputations de fichiers, URL et noms de domaine | [virustotal.com](https://www.virustotal.com) |
 | MalwareBazaar | Malware samples and IOC database | Échantillons de malware et bases de données d’indicateurs de compromission | [bazaar.abuse.ch](https://bazaar.abuse.ch) |
 | URLScan | Website scanning and behavior analysis | Analyse du comportement des sites web et scan de sécurité | [urlscan.io](https://urlscan.io) |
