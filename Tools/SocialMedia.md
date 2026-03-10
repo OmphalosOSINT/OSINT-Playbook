@@ -17,6 +17,7 @@
 | Twint | Twitter/X scraping without API | Scraping de données sans API sur Twitter/X | [GitHub](https://github.com/twintproject/twint) |
 | RecruitEm | X-Ray search generator for LinkedIn and 10 other platforms, building Google dorks to find public profiles beyond native search restrictions | Générateur de recherches X-Ray pour LinkedIn et 10 autres plateformes, construisant des dorks Google pour accéder aux profils publics sans restrictions natives | [recruitin.net](https://recruitin.net) |
 | OSINT Industries | Real-time identity pivot platform aggregating 1500+ sources from email, phone, username or crypto wallet with geospatial mapping and activity timeline | Plateforme de pivot identitaire temps réel agrégeant 1500+ sources depuis email, téléphone, username ou wallet crypto avec cartographie géospatiale et timeline d'activité | [osint.industries](https://www.osint.industries) |
+| Predicta Search | Free digital footprint lookup from email, phone, username or name returning associated registered accounts across multiple platforms | Lookup d'empreinte numérique gratuit depuis email, téléphone, username ou nom retournant les comptes associés sur différentes plateformes | [predictasearch.com](https://www.predictasearch.com) |
 
 ---
 
