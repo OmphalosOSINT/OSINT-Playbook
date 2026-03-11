@@ -175,3 +175,10 @@
 - Les logs des infostealers (comme Hudson Rock, LeakRadar) précèdent souvent les divulgations publiques de fuites — utilise-les tôt.
 - Telegram est devenu le principal vecteur de distribution des données fraîches issues de fuites — surveille les canaux pertinents.
 - De nombreux sites .onion sont des honeypots ou des arnaques — privilégie l'observation passive, n'interagis que si nécessaire.
+
+>*Next [tool](../Tools/Disinformation.md)*
+
+> *Discover other [tools](../Tools)*
+
+> *Back to [Main Playbook](../README.md)*
+
