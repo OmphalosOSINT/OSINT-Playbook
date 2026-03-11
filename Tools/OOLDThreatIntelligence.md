@@ -6,123 +6,135 @@
 
 ## 🛠️ Tools / Outils
 
-| Tool | Usage | Usages | Link |
-|------|-------|--------|------|
-| IntelX | Search dark web, forums, paste sites | Recherches sur le darkweb, ses forums et ses paste sites | [intelx.io](https://intelx.io) |
-| Shodan | Identify exposed infrastructure and IoT | Identifie les infrastructures et objets connectés exposés | [shodan.io](https://www.shodan.io) |
-| Onyphe | Cyber threat intelligence and exposed infrastructure search | Recherche d'infrastructures exposées et renseignement sur les cybermenaces | [onyphe.io](https://www.onyphe.io) |
-| ZoomEye | Identify exposed infrastructure and IoT | Identifie les infrastructures et objets connectés exposés | [zoomeye.ai]((https://www.zoomeye.ai/)) |
-| Censys | Identify exposed infrastructure and IoT | Identifie les infrastructures et objets connectés exposés | [censys.com]((https://censys.com/)) |
-| GreyNoise | Internet scan traffic analysis and IP qualification | Analyse du trafic de scan internet et qualification des adresses IP | [greynoise.io](https://www.greynoise.io) |
-| FullHunt | External attack surface discovery and continuous monitoring | Découverte de la surface d'attaque externe et surveillance continue | [fullhunt.io](https://fullhunt.io) |
-| FOFA | Cyberspace mapping and exposed asset search | Cartographie du cyberespace et recherche d'actifs exposés | [fofa.info](https://fofa.info) |
-| LeakIX | Exposed services and active data leak detection | Détection des services exposés et des fuites de données actives | [leakix.net](https://leakix.net) |
-| SynapsInt | Unified OSINT search engine with multi-pivot capabilities | Moteur OSINT unifié avec capacités de pivoting multiples | [synapsint.com](https://synapsint.com) |
-| Criminal IP | AI-powered IP threat intelligence and risk scoring | Renseignement sur les menaces IP et scoring de risque par IA | [criminalip.io](https://www.criminalip.io) |
-| Quake 360 | Cyberspace mapping and infrastructure intelligence by Qihoo 360 | Cartographie du cyberespace et renseignement sur les infrastructures par Qihoo 360 | [quake.360.net](https://quake.360.net) |
-| Netlas | Internet-wide scanning, host intelligence and attack surface discovery | Scanner internet, renseignement sur les hôtes et découverte de la surface d'attaque | [netlas.io](https://app.netlas.io) |
-| VirusTotal | File, URL and domain reputation analysis | Analyse de la réputations de fichiers, URL et noms de domaine | [virustotal.com](https://www.virustotal.com) |
-| MalwareBazaar | Malware samples and IOC database | Échantillons de malware et bases de données d’indicateurs de compromission | [bazaar.abuse.ch](https://bazaar.abuse.ch) |
-| URLScan | Website scanning and behavior analysis | Analyse du comportement des sites web et scan de sécurité | [urlscan.io](https://urlscan.io) |
-| AbuseIPDB | IP reputation and abuse reporting | Analyse de la réputation des adresses IP et signalement des abus | [abuseipdb.com](https://www.abuseipdb.com) |
-| OTX AlienVault | Open threat intelligence community | Communauté ouverte de renseignement sur les menaces | [otx.alienvault.com](https://otx.alienvault.com) |
-| MISP | Threat intelligence sharing platform | Plateforme de partage de renseignement sur les menaces | [misp-project.org](https://www.misp-project.org) |
-| Maltego | Actor and infrastructure mapping | Cartographie des acteurs et des infrastructures | [maltego.com](https://www.maltego.com) |
-| Recorded Future | Real-time threat intelligence | Renseignement sur les menaces en temps réel | [recordedfuture.com](https://www.recordedfuture.com) |
-| DarkBeast | Dark web monitoring and search | Veille et recherche sur le Dark Web |  [darkbeast.io](https://darkbeast.io) |
+### IOC Analysis & Reputation
+
+| Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
+|------|----------------|-----------------|--------------|----|----|------|
+| VirusTotal | File, URL and domain reputation analysis (70+ antivirus engines and threat intel feeds) | Analyse de réputation de fichiers, URL et domaines (70+ moteurs antivirus et flux de renseignement) | URLScan, OTX | Free (Enterprise paid) | 🇺🇸 USA | [virustotal.com](https://www.virustotal.com) |
+| URLScan | Website scanning and behavioral analysis (screenshots, DOM, request logs, indicators) | Analyse comportementale de sites web (captures d'écran, DOM, logs des requêtes, indicateurs) | VirusTotal, AnyRun | Free | 🇩🇪 Germany | [urlscan.io](https://urlscan.io) |
+| AbuseIPDB | IP reputation database and community-driven abuse reporting | Base de réputation IP et signalement des abus communautaire | GreyNoise, Criminal IP | Free | 🇺🇸 USA | [abuseipdb.com](https://www.abuseipdb.com) |
+| MalwareBazaar | Malware sample repository and IOC database by Abuse.ch | Dépôt d'échantillons de malware et base IOC par Abuse.ch | VirusTotal, ANY.RUN | Free | 🇨🇭 Switzerland | [bazaar.abuse.ch](https://bazaar.abuse.ch) |
+| OTX AlienVault | Open threat intelligence sharing community — pulses, IOCs and collaborative analysis | Communauté ouverte de partage de renseignement sur les menaces —(pulses, IOCs et analyse collaborative) | MISP, Pulsedive | Free | 🇺🇸 USA | [otx.alienvault.com](https://otx.alienvault.com) |
+| Pulsedive | Community threat intelligence with MITRE ATT&CK enrichment and IOC correlation | Renseignement sur les menaces communautaire avec enrichissement MITRE ATT&CK et corrélation IOC | OTX, Shodan | Freemium | 🇺🇸 USA | [pulsedive.com](https://pulsedive.com) |
+| ThreatBook | Intelligence-driven threat detection and analysis with deep APAC threat actor coverage | Détection et analyse de menaces pilotées par le renseignement : couverture approfondie des acteurs APAC | OTX, Pulsedive | Freemium | 🇨🇳 China | [threatbook.io](https://threatbook.io) |
+| ANY.RUN | Interactive online malware analysis sandbox, real-time behavioral analysis | Sandbox d'analyse de malware interactive en ligne, analyse comportementale en temps réel | Cuckoo Sandbox, VirusTotal | Freemium | 🇪🇪 Estonia | [any.run](https://any.run) |
+
+### Infrastructure Scanning & Threat Mapping
+
+| Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
+|------|----------------|-----------------|--------------|----|----|------|
+| Shodan | Identify exposed infrastructure and IoT (powerful for C2 server hunting) | Identifier les infrastructures et IoT exposés (puissant pour la chasse aux serveurs C2) | Censys, ZoomEye | Freemium | 🇺🇸 USA | [shodan.io](https://www.shodan.io) |
+| Censys | Internet infrastructure scanning with deep certificate and TLS analysis | Scan d'infrastructures internet avec analyse approfondie des certificats et TLS | Shodan, ZoomEye | Freemium | 🇺🇸 USA | [censys.io](https://censys.io) |
+| ZoomEye | Chinese cyberspace mapping, useful for tracking infrastructure operated from China | Cartographie du cyberespace chinois, utile pour suivre les infrastructures opérées depuis la Chine | Shodan, FOFA | Freemium | 🇨🇳 China | [zoomeye.ai](https://www.zoomeye.ai) |
+| FOFA | Cyberspace asset mapping with favicon hash and TLS pivoting (strong APAC coverage) | Cartographie des actifs du cyberespace avec pivoting favicon et TLS (forte couverture APAC) | Shodan, Censys | Freemium | 🇨🇳 China | [fofa.info](https://fofa.info) |
+| GreyNoise | Distinguish malicious scanning traffic from benign internet noise (IP qualification) | Distinguer le trafic de scan malveillant du bruit internet bénin (qualification des IPs) | AbuseIPDB, Criminal IP | Freemium | 🇺🇸 USA | [greynoise.io](https://www.greynoise.io) |
+| Onyphe | French cyber threat intelligence combining passive DNS, scan data and threat feeds | Cyber threat intelligence français combinant DNS passif, données de scan et flux de menaces | Shodan, LeakIX | Freemium | 🇫🇷 France | [onyphe.io](https://www.onyphe.io) |
+| LeakIX | Real-time detection of exposed services and active data leaks (European infrastructure focus) | Détection en temps réel des services exposés et fuites actives (focus infrastructure européenne) | Shodan, FullHunt | Freemium | 🇪🇺 Europe | [leakix.net](https://leakix.net) |
+| Criminal IP | AI-powered IP threat intelligence with real-time risk scoring and VPN/proxy/Tor detection | Renseignement sur les menaces IP par IA avec scoring de risque temps réel | GreyNoise, AbuseIPDB | Freemium | 🇰🇷 South Korea | [criminalip.io](https://www.criminalip.io) |
+| FullHunt | External attack surface discovery and continuous exposure monitoring | Découverte de la surface d'attaque externe et surveillance continue des expositions | Censys, Netlas | Freemium | 🌐 International | [fullhunt.io](https://fullhunt.io) |
+| SynapsInt | Unified OSINT search with multi-pivot: Domain / IP / ASN / SSL / Email / Phone | Moteur OSINT unifié avec pivots multiples : Domaine / IP / ASN / SSL / Email / Téléphone | Maltego, SpiderFoot | Freemium | 🌐 International | [synapsint.com](https://synapsint.com) |
+| Quake 360 | Cyberspace mapping by Qihoo 360, specialized in ICS/SCADA and industrial systems | Cartographie du cyberespace par Qihoo 360, spécialisé dans les systèmes ICS/SCADA et industriels | Shodan, FOFA | Freemium | 🇨🇳 China | [quake.360.net](https://quake.360.net) |
+| Netlas | Internet-wide scanning with regex search, temporal querying and Maltego integration | Scanner internet avec recherche regex, requêtage temporel et intégration Maltego | Shodan, Censys | Freemium (50 req/day free) | 🌐 International | [app.netlas.io](https://app.netlas.io) |
+
+### Threat Intelligence Platforms
+
+| Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
+|------|----------------|-----------------|--------------|----|----|------|
+| MISP | Open-source threat intelligence sharing and correlation platform | Plateforme open source de partage et de corrélation du renseignement sur les menaces | OpenCTI, OTX | Free (self-hosted) | 🇧🇪 Belgium | [misp-project.org](https://www.misp-project.org) |
+| Recorded Future | Real-time threat intelligence with predictive analytics — industry standard for CTI teams | Renseignement sur les menaces en temps réel avec analyse prédictive | Mandiant, Flashpoint | Paid | 🇺🇸 USA | [recordedfuture.com](https://www.recordedfuture.com) |
+| Maltego | Visual threat actor and infrastructure mapping, correlate IOCs across sources | Cartographie visuelle des acteurs de menace et des infrastructures, corrélation IOC | SpiderFoot, Neo4j | Freemium | 🇩🇪 Germany | [maltego.com](https://www.maltego.com) |
+| IntelX | Search across dark web, forums and paste sites for threat actor mentions and leaked data | Recherche sur le dark web, forums et paste sites pour les mentions d'acteurs de menace | OTX, Pulsedive | Freemium | 🇩🇪 Germany | [intelx.io](https://intelx.io) |
 
 ---
 
 ## 🔎 Methodology / Méthodologie
 
 **EN**
-1. Define the threat — actor, campaign, malware family or IOC
-2. Collect IOCs — IPs, domains, hashes, email addresses
-3. Search threat intelligence platforms (OTX, VirusTotal, MalwareBazaar)
-4. Map infrastructure — identify related domains, IPs and hosting patterns
-5. Monitor dark web forums and channels for mentions
-6. Attribute if possible — link to known threat actors or groups
-7. Produce an actionable threat report with TTPs (Tactics, Techniques, Procedures)
+1. Define the threat : actor, campaign, malware family or IOC type
+2. Collect IOCs : IP addresses, domains, file hashes, email addresses, URLs
+3. Analyze each IOC across threat intelligence platforms (VirusTotal, OTX, Pulsedive)
+4. Map associated infrastructure : pivot from IOC to related domains, IPs and hosting patterns
+5. Hunt for active infrastructure (Shodan, Censys, FOFA) using SSL, banner and favicon fingerprints
+6. Monitor dark web forums and Telegram channels for actor mentions
+7. Attribute when possible : link to known threat actors or groups using MITRE ATT&CK TTPs
+8. Produce an actionable threat report with recommendations
 
 **FR**
-1. Définir la menace : acteur, campagne, famille de malware ou IOC
-2. Collecter les IOCs : IPs, domaines, hashes, adresses email
-3. Rechercher sur les plateformes de threat intelligence (OTX, VirusTotal, MalwareBazaar)
-4. Cartographier l'infrastructure : identifier les domaines liés, IPs et patterns d'hébergement
-5. Surveiller les forums et canaux dark web pour les mentions
-6. Attribution si possible : établir un lien avec des acteurs ou groupes de menace connus
-7. Produire un rapport de menace exploitable avec les TTPs (Tactiques, Techniques, Procédures)
+1. Définir la menace : acteur, campagne, famille de malware ou type d'IOC
+2. Collecter les IOCs : adresses IP, domaines, hashes de fichiers, adresses email, URLs
+3. Analyser chaque IOC sur les plateformes de renseignement (VirusTotal, OTX, Pulsedive)
+4. Cartographier l'infrastructure associée : pivoter de l'IOC vers les domaines liés, IPs et patterns d'hébergement
+5. Chasser l'infrastructure active (Shodan, Censys, FOFA) via les empreintes SSL, banners et favicons
+6. Surveiller les forums dark web et canaux Telegram pour les mentions d'acteurs
+7. Attribuer si possible : relier à des acteurs ou groupes connus via les TTPs MITRE ATT&CK
+8. Produire un rapport de menace exploitable avec recommandations
 
 ---
 
-## 💡 MITRE ATT&CK Framework
+## 💡 MITRE ATT&CK Framework — Quick Reference
 
-**ENG**
-| Tactic | Description |
-|--------|-------------|
-| Reconnaissance | Gathering info before attack |
-| Resource Development | Building infrastructure |
-| Initial Access | Entry point into target |
-| Execution | Running malicious code |
-| Persistence | Maintaining foothold |
-| Defense Evasion | Avoiding detection |
-| Exfiltration | Stealing data |
+| Tactic | EN Description | FR Description |
+|--------|---------------|----------------|
+| Reconnaissance | Gathering info before attack | Collecte d'informations avant l'attaque |
+| Resource Development | Building attack infrastructure | Construction de l'infrastructure d'attaque |
+| Initial Access | Entry point into target | Point d'entrée dans la cible |
+| Execution | Running malicious code | Exécution du code malveillant |
+| Persistence | Maintaining foothold | Maintien de l'accès |
+| Privilege Escalation | Gaining higher permissions | Élévation de privilèges |
+| Defense Evasion | Avoiding detection | Contournement des mécanismes de détection |
+| Lateral Movement | Moving through the network | Déplacement au sein du réseau |
+| Exfiltration | Stealing data | Exfiltration de données |
+| Impact | Disrupting or destroying systems | Perturbation ou destruction des systèmes |
 
-**FR**
-| Tactique | Description |
-| -------- | ----------- |
-| Reconnaissance | Collecte d’informations avant une attaque |
-| Développement de ressources | Mise en place de l’infrastructure |
-| Accès initial | Point d’entrée dans la cible |
-| Exécution | Exécution de code malveillant |
-| Persistance | Maintien de l’accès |
-| Évasion des défenses | Contournement des mécanismes de détection |
-| Exfiltration | Vol de données |
-
-
-> Full framework : [attack.mitre.org](https://attack.mitre.org)
+> Full framework: [attack.mitre.org](https://attack.mitre.org)
 
 ---
 
 ## 🚩 Key Red Flags / Signaux d'alerte
 
-**ENG** 
+**ENG**
 | Red Flag | Possible Implication |
 |----------|---------------------|
 | IP flagged on multiple threat feeds | Active malicious infrastructure |
-| Domain registered recently with privacy protection | Potential phishing or C2 |
-| Hash matches known malware family | Active malware deployment |
+| Recently registered domain with privacy protection | Potential phishing or C2 preparation |
+| File hash matches known malware family | Active malware deployment |
 | Actor mentioned on dark web forums | Planned or active campaign |
-| Reuse of infrastructure across campaigns | Same threat actor |
+| Infrastructure reuse across multiple campaigns | Confirmed single threat actor |
+| Self-signed certificate on unexpected port | Potential C2 or MitM infrastructure |
 
 **FR**
-| Alerte | Implication possible |
-| ------ | -------------------- |
+| Signal d’alerte | Implication possible |
+|-----------------|----------------------|
 | IP signalée sur plusieurs flux de menaces | Infrastructure malveillante active |
-| Domaine récemment enregistré avec protection de la vie privée | Potentiel phishing ou serveur de commande et contrôle (C2) |
-| Hash correspondant à une famille de malware connue | Déploiement actif de malware |
+| Domaine récemment enregistré avec protection de confidentialité | Potentiel phishing ou préparation d’une infrastructure C2 |
+| Empreinte de fichier (hash) correspondant à une famille de malware connue | Déploiement actif de malware |
 | Acteur mentionné sur des forums du dark web | Campagne planifiée ou en cours |
-| Réutilisation d’infrastructures à travers plusieurs campagnes | Même acteur de menace |                       
+| Réutilisation d’infrastructure sur plusieurs campagnes | Acteur de menace unique confirmé |
+| Certificat auto-signé sur un port inattendu | Infrastructure potentielle de C2 ou MitM |
+
 
 ---
 
 ## 💡 Tips & Good Practices / Conseils
 
 **ENG**
-- IOCs have a shelf life, always check the date of the intelligence
-- Attribution is hard : never over-attribute without strong evidence
-- Correlate multiple sources before drawing conclusions
-- MITRE ATT&CK is your best framework for structuring TTPs
-- Monitor Telegram channels, threat actors increasingly use them to leak data and communicate
-- False flags are common : state-sponsored actors often mimic other groups
+- IOCs have a shelf life — always check the intelligence date before acting on it
+- Attribution is hard: never over-attribute without strong corroborating evidence
+- Correlate multiple independent sources before drawing conclusions
+- MITRE ATT&CK is the standard framework for structuring TTPs in threat reports
+- Telegram channels have replaced forums as the primary real-time threat actor communication vector
+- False flags are common — state-sponsored actors frequently mimic other groups' TTPs
+- Certificate and favicon pivoting on Shodan/Censys can find entire C2 infrastructure from a single IOC
 
 **FR**
-- Les IOC ont une durée de validité. Vérifie toujours la date des renseignements
-- L’attribution est difficile : ne surattribue jamais sans preuves solides
-- Corrèle plusieurs sources avant de tirer des conclusions
-- MITRE ATT&CK est le meilleur cadre pour structurer les TTP (Tactiques, Techniques, Procédures)
-- Surveille les chaînes Telegram, les acteurs de menace les utilisent de plus en plus pour divulguer des données et communiquer
-- Les fausses pistes sont fréquentes : les acteurs sponsorisés par des États imitent souvent d’autres groupes
+- Les IOC ont une durée de vie limitée : vérifiez toujours la date du renseignement avant d’agir
+- L’attribution est difficile : ne jamais sur-attribuer sans preuves solides de corroboration
+- Corrélez plusieurs sources indépendantes avant de tirer des conclusions
+- MITRE ATT&CK est le cadre standard pour structurer les TTP dans les rapports de menace
+- Les canaux Telegram ont remplacé les forums comme principal vecteur de communication en temps réel des acteurs de menace
+- Les faux drapeaux sont fréquents : les acteurs étatiques imitent souvent les TTP d’autres groupes
+- Le pivot par certificat et favicon sur Shodan/Censys peut révéler toute une infrastructure C2 à partir d’un seul IOC
+
 
 ---
 
@@ -133,3 +145,4 @@
 - [MalwareBazaar](https://bazaar.abuse.ch)
 - [Recorded Future Blog](https://www.recordedfuture.com/blog)
 - [Krebs on Security](https://krebsonsecurity.com)
+- [The DFIR Report](https://thedfirreport.com)
