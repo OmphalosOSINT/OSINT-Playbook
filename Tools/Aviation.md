@@ -109,4 +109,4 @@
 - [OpenSanctions](https://www.opensanctions.org)
 # ✈️ Aviation OSINT
 
-> *Back to [Main Playbook](../README.md)*
+> *Discover other tools [Main Playbook](../Tools)*
