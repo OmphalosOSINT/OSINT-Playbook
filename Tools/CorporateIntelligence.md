@@ -125,3 +125,5 @@
 - [OpenSanctions](https://www.opensanctions.org)
 - [Pappers](https://www.pappers.fr)
 - [FATF Guidance on Beneficial Ownership](https://www.fatf-gafi.org)
+
+> *Back to [Main Playbook](../README.md)*
