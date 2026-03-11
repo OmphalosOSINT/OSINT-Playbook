@@ -109,7 +109,7 @@
 - [OpenSanctions](https://www.opensanctions.org)
 # ✈️ Aviation OSINT
 
->*Next [tool](../CorporateIntelligence.md)*
+>*Next [tool](../Tools/CorporateIntelligence.md)*
 
 > *Discover other [Tools](../Tools)*
 
