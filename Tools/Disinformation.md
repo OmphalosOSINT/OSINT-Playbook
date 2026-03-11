@@ -72,6 +72,7 @@
 ## 💡 Indicators of Inauthentic Behavior / Indicateurs de comportement inauthentique
 
 **ENG**
+
 | Indicator | Description |
 |-----------|-------------|
 | Account age vs activity volume | New account with unusually high posting output |
@@ -84,6 +85,7 @@
 | Sudden engagement spikes | Rapid artificial inflation of likes, shares or retweets |
 
 **FR**
+
 | Indicateur | Description |
 |------------|-------------|
 |Âge du compte vs volume d'activité | Nouveau compte avec un volume de publication anormalement élevé |
@@ -100,6 +102,7 @@
 ## 🚩 Key Red Flags / Signaux d'alerte
 
 **ENG**
+
 | Red Flag | Possible Implication |
 |----------|---------------------|
 | Narrative origin traces to state-adjacent media | Coordinated state-sponsored operation |
@@ -110,6 +113,7 @@
 | Rapid deletion of original posts | Awareness of exposure |
 
 **FR**
+
 | Indicateur d'alerte | Implication possible | 
 | Origine du récit traçable à des médias proches d'un Etat | Opération coordonée parrainée par un Etat |
 | Même contenu publié simultanément dans plusieurs langues | Opération d'influence multilingue industrialisée |
