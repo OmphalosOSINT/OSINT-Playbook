@@ -109,6 +109,8 @@
 - [OpenSanctions](https://www.opensanctions.org)
 # ✈️ Aviation OSINT
 
+>*Next [tool](../CorporateIntelligence.md)*
+
 > *Discover other [Tools](../Tools)*
 
-> *Back to the [Main Page](../OSINT-Playbook)*
+> *Back to [Main Playbook](../README.md)*
