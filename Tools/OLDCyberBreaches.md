@@ -1,129 +1,177 @@
-# 💻 Cyber & Data Breaches OSINT
+# 💻 Cyber Breaches & Dark Web OSINT
 
 > *Back to [Main Playbook](../README.md)*
 
 ---
 
+## ⚠️ Legal Notice / Avertissement légal
+
+**EN**
+-Breach data must only be used for investigative or defensive purposes. 
+-Never exploit, redistribute or use credentials for unauthorized access. 
+-Dark web investigation must strictly comply with applicable law. 
+-Never engage with illegal content or services.
+
+**FR** 
+-Les fuites de données ne doivent être utilisées qu'à des fins défensives ou d'investigation. 
+-Ne jamais exploiter, redistribuer ou utiliser des credentials pour un accès non autorisé. 
+-Toute investigation sur le dark web doit strictement respecter le cadre légal en vigueur. 
+-Ne jamais interagir avec des contenus ou services illégaux.
+
+---
+
 ## 🛠️ Tools / Outils
 
-| Tool | Usage | Link |
-|------|-------|------|
-| HaveIBeenPwned | Check if email appears in known breaches | [haveibeenpwned.com](https://haveibeenpwned.com) |
-| DeHashed | Search leaked credentials and PII | [dehashed.com](https://www.dehashed.com) |
-| IntelX | Search pastes, leaks and dark web sources | [intelx.io](https://intelx.io) |
-| LeakCheck | Credential leak verification | [leakcheck.io](https://leakcheck.io) |
-| Pastebin Search | Monitor public pastes for sensitive data | [pastebin.com](https://pastebin.com) |
-| Grep.app | Search across public code repositories | [grep.app](https://grep.app) |
-| GitHub Dorks | Find exposed credentials in public repos | [github.com](https://github.com) |
-| Shodan | Find exposed databases and services | [shodan.io](https://www.shodan.io) |
-| Censys | Identify misconfigured or exposed systems | [censys.io](https://censys.io) |
-| BreachDirectory | Free breach data lookup | [breachdirectory.org](https://breachdirectory.org) |
-| Pulsedive | Community-driven threat intelligence platform with MITRE ATT&CK enrichment | Plateforme de renseignement sur les menaces communautaire avec enrichissement MITRE ATT&CK | [pulsedive.com](https://pulsedive.com) |
-| ThreatBook | Intelligence-driven threat detection with deep APAC threat actor coverage | Détection de menaces pilotée par l'intelligence avec couverture approfondie des acteurs APAC | [threatbook.io](https://threatbook.io) |
-| Hudson Rock | Infostealer intelligence and compromised credentials database | Renseignement sur les infostealers et base de données de credentials compromis | [hudsonrock.com](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools) |
-| LeakRadar | Cleartext credential leak search across 290B+ records with real-time alerts | Recherche de credentials en clair sur 290 milliards d'enregistrements avec alertes temps réel | [leakradar.io](https://leakradar.io) |
-| NAPALM FTP Indexer | Search engine for publicly accessible FTP servers indexing 316M+ files across 1,200+ servers to find exposed documents and data | Moteur de recherche dans les serveurs FTP publics indexant 316M+ fichiers sur 1 200+ serveurs pour détecter des documents et données exposés | [searchftps.net](https://www.searchftps.net) |
-| Google Hacking Database (GHDB) | Community-maintained index of Google Dorks organized by category to find sensitive data, exposed devices and login portals via search engines | Index communautaire de Google Dorks classés par catégorie pour découvrir données sensibles, équipements exposés et portails de connexion via les moteurs de recherche | [exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database) |
+### Breach & Credential Search
+
+| Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
+|------|----------------|-----------------|--------------|----|----|------|
+| HaveIBeenPwned | Check if an email appears in known data breaches | Vérifier si un email apparaît dans des fuites de données connues | LeakCheck, BreachDirectory | Free (API paid) | 🇦🇺 Australia | [haveibeenpwned.com](https://haveibeenpwned.com) |
+| DeHashed | Search leaked credentials and PII across multiple breach datasets | Rechercher des credentials et données personnelles fuités dans de multiples jeux de données | IntelX, LeakCheck | Freemium | 🇺🇸 USA | [dehashed.com](https://www.dehashed.com) |
+| IntelX | Search engine for pastes, leaks, dark web sources and historical data (12+ PB indexed) | Moteur de recherche pour les pastes, fuites, sources dark web et données historiques (12+ PO indexés) | DeHashed, LeakCheck | Freemium | 🇩🇪 Germany | [intelx.io](https://intelx.io) |
+| LeakCheck | Credential leak verification with reverse search by password | Vérification de fuites de credentials avec recherche inversée par mot de passe | DeHashed, HIBP | Freemium | 🌐 International | [leakcheck.io](https://leakcheck.io) |
+| LeakRadar | Real-time cleartext credential leak detection across 290B+ records with domain monitoring and alerts | Détection temps réel de credentials en clair sur 290Mds+ d'enregistrements avec surveillance de domaine et alertes | IntelX, DeHashed | Freemium | 🌐 International | [leakradar.io](https://leakradar.io) |
+| Hudson Rock | Infostealer intelligence platform - compromised credentials database and Cavalier API | Plateforme de renseignement infostealer — base de données de credentials compromis et API Cavalier | LeakRadar, Flare | Freemium | 🇮🇱 Israel | [hudsonrock.com](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools) |
+| BreachDirectory | Breach data lookup — email, username and password reverse search | Lookup dans les données de fuites — recherche inversée par email, pseudo et mot de passe | HIBP, LeakCheck | Free | 🌐 International | [breachdirectory.org](https://breachdirectory.org) |
+| Pulsedive | Community threat intelligence platform with MITRE ATT&CK enrichment — correlates IOCs | Plateforme de renseignement sur les menaces communautaire avec enrichissement MITRE ATT&CK | OTX AlienVault | Freemium | 🇺🇸 USA | [pulsedive.com](https://pulsedive.com) |
+| ThreatBook | Intelligence-driven threat detection with deep APAC threat actor coverage | Détection de menaces pilotée par le renseignement avec couverture approfondie des acteurs APAC | Pulsedive, OTX | Freemium | 🇨🇳 China | [threatbook.io](https://threatbook.io) |
+
+### Paste & Code Exposure
+
+| Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
+|------|----------------|-----------------|--------------|----|----|------|
+| IntelX | Comprehensive paste and leak search including Pastebin, GhostBin and dark web sources | Recherche complète dans les pastes et fuites incluant Pastebin, GhostBin et sources dark web | Pastebin Search | Freemium | 🇩🇪 Germany | [intelx.io](https://intelx.io) |
+| Grep.app | Regex search across public GitHub repositories, find exposed API keys and credentials | Recherche regex dans les dépôts GitHub publics, trouver les clés API et credentials exposés | Searchcode, GitHub Search | Free | 🌐 International | [grep.app](https://grep.app) |
+
+### Dark Web Search & Monitoring
+
+| Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
+|------|----------------|-----------------|--------------|----|----|------|
+| Ahmia | Ethical Tor hidden services search engine accessible from the clearnet — indexes .onion sites | Moteur de recherche éthique des services cachés Tor accessible depuis le web classique | DarkSearch, OnionSearch | Free | 🇫🇮 Finland | [ahmia.fi](https://ahmia.fi) |
+| DarkSearch | Indexed dark web search engine accessible from the clearnet | Moteur de recherche dark web indexé accessible depuis le clearnet | Ahmia | Freemium | 🌐 International | [darksearch.io](https://darksearch.io) |
+| DarkBeast | Dark web monitoring and keyword-based search for brand and data exposure | Veille dark web et recherche par mots-clés pour la surveillance d'exposition de marque et de données | IntelX, Ahmia | Paid | 🌐 International | [darkbeast.io](https://darkbeast.io) |
+| Tor Browser | Anonymous access to .onion sites via the Tor network | Accès anonyme aux sites .onion via le réseau Tor | — | Free | 🌐 International | [torproject.org](https://www.torproject.org) |
+| OnionSearch | CLI tool for searching multiple dark web search engines simultaneously | Outil CLI pour rechercher simultanément sur plusieurs moteurs dark web | Ahmia | Free | 🌐 International | [GitHub](https://github.com/megadose/OnionSearch) |
 
 ---
 
 ## 🔎 Methodology / Méthodologie
 
+### Breach Investigation
+
 **EN**
 1. Identify target email addresses, domains or usernames
-2. Check known breach databases (HaveIBeenPwned, DeHashed, LeakCheck)
-3. Search paste sites for exposed data (IntelX, Pastebin)
-4. Search public code repositories for accidentally exposed credentials (GitHub Dorks, Grep.app)
-5. Check for exposed databases or services via Shodan / Censys
-6. Cross-reference findings to build a broader profile
-7. Document all findings responsibly — never exploit or share raw credentials
+2. Check known breach databases (HIBP, DeHashed, LeakCheck)
+3. Search paste sites and dark web sources (IntelX, LeakRadar)
+4. Search public code repositories for accidentally exposed credentials (Grep.app)
+5. Cross-reference findings to build a broader identity or risk profile
+6. Document all findings responsibly (never exploit or share raw credentials)
 
 **FR**
 1. Identifier les adresses email, domaines ou pseudos cibles
-2. Consulter les bases de données de fuites connues (HaveIBeenPwned, DeHashed, LeakCheck)
-3. Rechercher sur les sites de paste les données exposées (IntelX, Pastebin)
-4. Rechercher dans les dépôts publics les credentials accidentellement exposés (GitHub Dorks, Grep.app)
-5. Vérifier les bases de données ou services exposés via Shodan / Censys
-6. Recouper les résultats pour construire un profil plus large
-7. Documenter tous les résultats de manière responsable — ne jamais exploiter ou partager des credentials bruts
+2. Consulter les bases de données de fuites connues (HIBP, DeHashed, LeakCheck)
+3. Rechercher sur les sites de paste et sources dark web (IntelX, LeakRadar)
+4. Rechercher dans les dépôts publics les credentials accidentellement exposés (Grep.app)
+5. Recouper les résultats pour construire un profil d'identité ou de risque plus large
+6. Documenter tous les résultats de manière responsable (ne jamais exploiter ou partager des credentials bruts)
+
+### Dark Web Investigation
+
+**EN**
+1. Define scope : what exactly are you looking for?
+2. Use clearnet-accessible search engines first (Ahmia, DarkSearch, IntelX)
+3. Access .onion sites only via Tor in a secure, isolated environment (dedicated VM)
+4. Never download files directly, open only in sandboxed environment
+5. Document every finding with screenshots and timestamps
+6. Cross-reference with clearnet sources to validate
+
+**FR**
+1. Définir le périmètre : que cherche-t-on exactement ?
+2. Utiliser d'abord les moteurs accessibles depuis le clearnet (Ahmia, DarkSearch, IntelX)
+3. Accéder aux sites .onion uniquement via Tor dans un environnement sécurisé et isolé (VM dédiée)
+4. Ne jamais télécharger de fichiers directement, ouvrir uniquement dans un environnement sandboxé
+5. Documenter chaque découverte avec captures d'écran et horodatage
+6. Recouper avec des sources clearnet pour valider
 
 ---
 
 ## 💡 GitHub Dorks — Quick Reference
 
-| Dork | Usage |
+| Dork | Usage | Usages |
 |------|-------|
-| `filename:.env password` | Find exposed environment files |
-| `filename:config.php dbpassword` | Find database credentials |
-| `filename:id_rsa` | Find exposed SSH private keys |
-| `"api_key" "secret"` | Find exposed API keys |
-| `filename:.htpasswd` | Find exposed password files |
-
----
-
-## 🚩 Key Red Flags / Signaux d'alerte
-
-| Red Flag | Possible Implication |
-|----------|---------------------|
-| Credentials found in multiple breaches | High-value target or poor security hygiene |
-| Corporate emails in breach databases | Potential insider threat or phishing risk |
-| Exposed API keys in public repos | Active security vulnerability |
-| Database exposed on Shodan | Misconfiguration or negligence |
-| Credentials posted on paste sites | Active data leak in progress |
+| `filename:.env password` | Find exposed environment files | Détecter les fichiers d'environnement accessibles publiquement |
+| `filename:config.php dbpassword` | Find database credentials | Détecter les informations d'identification des bases de données |
+| `filename:id_rsa` | Find exposed SSH private keys | Détecter les clés privées SSH accessibles publiquement |
+| `"api_key" "secret"` | Find exposed API keys | Détexter les clefs API exposées |
+| `filename:.htpasswd` | Find exposed password files | Détecter les fichiers de mots de passe exposés |
+| `"DB_PASSWORD" extension:env` | Find database passwords in .env files | Détecter les bases de données de mots de passe en fichier .env |
+| `"privatekey" extension:pem` | Find exposed private keys | Détecter les clefs privées exposées |
 
 ---
 
 ## 🕵️ Cybercriminal Ecosystems / Écosystèmes cybercriminels
 
-**EN** — Before data appears in public breach databases, it circulates in cybercriminal ecosystems. Monitoring these sources gives earlier visibility on active leaks and threat actors.
+**EN** — Before data appears in public breach databases, it circulates in cybercriminal ecosystems. Monitoring these sources provides earlier visibility on active leaks and threat actor activity.
 
-**FR** — Avant d'apparaître dans les bases publiques, les données circulent dans les écosystèmes cybercriminels. Surveiller ces sources permet une visibilité anticipée sur les fuites actives et les acteurs malveillants.
+**FR** — Avant que les données n'apparaissent dans les bases de données publiques de fuites, elles circulent au sein des écosystèmes cybercriminels. Surveiller ces sources permet d'obtenir une visibilité plus précoce sur les fuites actives et l'activité des acteurs malveillants.
 
-### Key Platforms / Plateformes clés
-
-| Platform | Type | Usage |
-|----------|------|-------|
-| Telegram channels | Messaging | Primary vector for data leaks and sales |
-| RaidForums / BreachForums | Forums | Leaked data trading and sharing |
+**ENG**
+| Platform | Type | Note |
+|----------|------|------|
+| Telegram channels | Messaging | Primary vector for data leaks and initial sales |
+| BreachForums | Forum | Major leaked data trading and sharing hub |
 | XSS.is / Exploit.in | Russian forums | High-level cybercriminal activity |
-| Dark web marketplaces | .onion sites | Credential and data sales |
+| Dark web marketplaces | .onion sites | Credential and data sales with escrow |
 | Paste sites (Pastebin, GhostBin) | Paste | Rapid public data dumps |
 
-### Monitoring Methodology / Méthodologie de surveillance
+**FR**
+| Plateforme | Type | Note |
+|------------|------|------|
+| Canaux Telegram | Messagerie | Principal vecteur de fuites de données et de ventes initiales |
+| BreachForums | Forum | Plateforme majeure d'échange et de partage de données piratés |
+| XSS.is/Exploit.in | Forums russes | Activités cybercriminelles de haut niveau |
+| Marchés du dark web | Sites .onion | Vente de données et d'identifiants avec système de dépôt de garantie |
+| Sites de paste (Pastebin, GhistBin) | Paste | Publication rapide de données en accès public |
 
-**EN**
-1. Identify relevant Telegram channels for your target sector
-2. Monitor paste sites regularly for domain or email mentions
-3. Set up alerts on IntelX for target domains and keywords
-4. Track known cybercriminal forums for mentions of target organizations
-5. Cross-reference with HaveIBeenPwned and DeHashed for validation
-6. Document findings immediately — content disappears fast
+---
+
+## 🚩 Key Red Flags / Signaux d'alerte
+
+**ENG**
+| Red Flag | Possible Implication |
+|----------|---------------------|
+| Corporate email found in infostealer logs | Active device compromise |
+| Credentials found in multiple breach datasets | Persistent password reuse, high exploitation risk |
+| Exposed API keys in public repos | Active security vulnerability, immediate action required |
+| Domain mentioned on dark web forums | Targeted attack or active breach |
+| Data advertised before public disclosure | Zero-day breach still under exploitation |
+| Employee credentials on Telegram channels | Imminent phishing or account takeover risk |
 
 **FR**
-1. Identifier les canaux Telegram pertinents pour votre secteur cible
-2. Surveiller régulièrement les sites de paste pour les mentions de domaines ou emails
-3. Configurer des alertes sur IntelX pour les domaines et mots-clés cibles
-4. Suivre les forums cybercriminels connus pour les mentions d'organisations cibles
-5. Recouper avec HaveIBeenPwned et DeHashed pour validation
-6. Documenter immédiatement — le contenu disparaît vite
-
-### 🚩 Early Warning Signs / Signaux d'alerte précoces
-
-| Signal | Implication |
-|--------|-------------|
-| Corporate data advertised on forums | Active breach in progress |
-| Credentials posted on Telegram | Imminent exploitation risk |
-| Domain mentioned in paste sites | Data leak or reconnaissance |
-| Employee emails in fresh dumps | Targeted phishing risk |
+| Indicateur d'alerte (Red Flag) | Implication possible |
+| Adresse email professionnelle dans des logs d'infostealers | Compromission active d'un appareil |
+| Identifiants présents dans plusieurs jeux de données de fuites | Réutilisation persistante de mots de passe, risque élevé d'exploitation |
+| Clés API exposées dans des dépôts publics | Vulnérabilité de sécurité active, action immédiate requise |
+| Domaine mentionné sur des forums du dark web | Attaque ciblée ou fuite active en cours |
+| Données annoncées avant une divulgation publique | Fuite zero-day encore exploitée |
+| Identifiants d'employés sur des canaux Telegram | Risque imminent de phishing ou de prise de contrôle de compte |
 
 ---
 
-## ⚠️ Ethics & Legality / Éthique & Légalité
+## 💡 Tips & Good Practices / Conseils
 
-**EN** — Breach data must only be used for investigative or defensive purposes. Never exploit, redistribute or use credentials for unauthorized access. Always operate within applicable law.
+**ENG**
+- Always operate from a dedicated, isolated machine or VM for dark web investigation
+- Never use your real identity or personal accounts on dark web platforms
+- Disable JavaScript in Tor Browser for better anonymity
+- Infostealer logs (Hudson Rock, LeakRadar) predate public breach disclosure — use them early
+- Telegram has become the primary distribution vector for fresh breach data — monitor relevant channels
+- Many .onion sites are honeypots or scams — prioritize passive observation, never interact unless necessary
 
-**FR** — Les données de fuites ne doivent être utilisées qu'à des fins investigatives ou défensives. Ne jamais exploiter, redistribuer ou utiliser des credentials pour un accès non autorisé. Toujours opérer dans le cadre légal en vigueur.
-
----
-
-## 🔗 Useful Resources / Res
+**FR**
+- Toujours opérer depuis une machine dédiée et isolée ou une VM pour les investigations sur le dark web.
+- Ne jamais utiliser votre véritable identité ou vos comptes personnels sur les plateformes du dark web.
+- Désactiver JavaScript dans Tor Browser pour une meilleure anonymité.
+- Les logs des infostealers (comme Hudson Rock, LeakRadar) précèdent souvent les divulgations publiques de fuites — utilise-les tôt.
+- Telegram est devenu le principal vecteur de distribution des données fraîches issues de fuites — surveille les canaux pertinents.
+- De nombreux sites .onion sont des honeypots ou des arnaques — privilégie l'observation passive, n'interagis que si nécessaire.
