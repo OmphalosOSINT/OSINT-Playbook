@@ -151,3 +151,9 @@
 - [First Draft — Verification Handbook](https://firstdraftnews.org)
 - [DFRLab — Atlantic Council](https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/)
 - [EU vs Disinfo](https://euvsdisinfo.eu)
+
+>*Next [tool](../Tools/Geolocation-IMINT.md)*
+
+> *Discover other [tools](../Tools)*
+
+> *Back to [Main Playbook](../README.md)*
