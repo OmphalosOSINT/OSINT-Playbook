@@ -13,7 +13,9 @@
 | The OSINT Curious Project | Community & writeups | [osintcurio.us](https://osintcurio.us) |
 | OSINT Framework | Tools directory | [osintframework.com](https://osintframework.com) |
 | Trace Labs | CTF & community | [tracelabs.org](https://www.tracelabs.org) |
-| OSINT-FR | Tools, CTF & community | [OSINT-FR](https://www.osintfr.com)
+| OSINT-FR | French-language tools, CTF & community | [osintfr.com](https://www.osintfr.com) |
+| First Draft | Verification & media literacy resources | [firstdraftnews.org](https://firstdraftnews.org) |
+| EU DisinfoLab | Disinformation investigations | [disinfo.eu](https://www.disinfo.eu) |
 
 ---
 
@@ -25,6 +27,7 @@
 | OSINT Curious Webinars | Free webinars | [osintcurio.us](https://osintcurio.us) |
 | Michael Bazzell Podcast | Podcast & training | [inteltechniques.com](https://inteltechniques.com/podcast.html) |
 | TraceLabs OSINT CTF | Competitive practice | [tracelabs.org](https://www.tracelabs.org) |
+| AFP Digital Investigations | Digital verification training | [afp.com](https://www.afp.com) |
 | Coursera — Open Source Intelligence | Online course | [coursera.org](https://www.coursera.org) |
 
 ---
@@ -37,6 +40,7 @@
 | OSINT Curious | Podcast & YouTube | [osintcurio.us](https://osintcurio.us) |
 | Reddit r/OSINT | Community | [reddit.com/r/OSINT](https://www.reddit.com/r/OSINT/) |
 | Bellingcat Discord | Community | [bellingcat.com](https://www.bellingcat.com) |
+| OSINT-FR Discord | French-speaking community | [osintfr.com](https://www.osintfr.com) |
 
 ---
 
@@ -47,6 +51,7 @@
 | Bellingcat Online Investigation Toolkit | [Google Sheets](https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ) |
 | OSINT Framework | [osintframework.com](https://osintframework.com) |
 | Awesome OSINT (GitHub) | [GitHub](https://github.com/jivoi/awesome-osint) |
+| Cylect.io | [cylect.io](https://cylect.io) |
 
 ---
 
@@ -59,8 +64,9 @@
 | @MichaelBazzell | Twitter/X | Privacy & OSINT |
 | @sinwindie | Twitter/X | OSINT techniques |
 | @sector035 | Twitter/X | Tools & writeups |
+| @GWilsonOSINT | Twitter/X | OSINT & corporate investigations |
 
 ---
 
 ## 📅 Last Updated / Dernière mise à jour
-*February 2026*
+*March 2026*
