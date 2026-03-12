@@ -107,7 +107,6 @@
 - [Bellingcat — Aviation OSINT](https://www.bellingcat.com)
 - [OCCRP — Private Jet Tracking](https://www.occrp.org)
 - [OpenSanctions](https://www.opensanctions.org)
-# ✈️ Aviation OSINT
 
 >*Next [tool](../Tools/CorporateIntelligence.md)*
 
