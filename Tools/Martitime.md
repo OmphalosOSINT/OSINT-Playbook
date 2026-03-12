@@ -108,3 +108,9 @@
 - [IMO Ship Search](https://www.imo.org)
 - [OpenSanctions](https://www.opensanctions.org)
 - [Global Fishing Watch](https://globalfishingwatch.org)
+
+>*Next [tool](../Tools/PhoneTelecom.md)*
+
+> *Discover other [tools](../Tools)*
+
+> *Back to [Main Playbook](../README.md)*
