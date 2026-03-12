@@ -152,3 +152,9 @@ Lorsqu’une cible utilise **Cloudflare (masquage d’IP)**, utilisez les techni
 - [Bellingcat Online Investigation Toolkit](https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ)
 - [Shodan Dorks Cheatsheet](https://github.com/jakejarvis/awesome-shodan-queries)
 - [SecurityTrails Blog](https://securitytrails.com/blog)
+
+>*Next [tool](../Tools/Martitime.md)*
+
+> *Discover other [tools](../Tools)*
+
+> *Back to [Main Playbook](../README.md)*
