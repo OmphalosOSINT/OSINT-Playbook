@@ -10,33 +10,54 @@
 
 ### 1. Executive Summary / Résumé exécutif
 
+**ENG**
 - Objective of the investigation
 - Key findings (3–5 bullet points maximum)
 - Conclusions and immediate recommendations
 
+**FR**
+- Objectifs de l'investigation
+- Les découvertes clés (3-5 bullet points maximum)
+- Conclusions et recommendations immédiates
 ---
 
 ### 2. Scope & Methodology / Périmètre & Méthodologie
 
+**ENG**
 - Target(s) investigated
 - Timeframe of the investigation
 - Tools and sources used
 - Legal and ethical framework applied
 - Limitations and known gaps
 
+**FR**
+- Cible investiguée
+- Horodatage de l'investigation
+- Outils et sources utilisées
+- Framework légale et éthique appliquée
+- Limitations et zones d'ombres connues
+  
 ---
 
 ### 3. Findings / Résultats
 
-- Organized by theme or chronology — choose one and stay consistent
+**ENG**
+- Organized by theme OR chronology : choose one and stay consistent
 - Each finding supported by at least one cited source
 - Screenshots and archives referenced as annexes
 - Technical indicators (IPs, hashes, domains, wallet addresses) formatted in code blocks
+
+**FR**
+- Organiser par thème OU chronologie : en choisir un et s'y tenir 
+- Chaque trouvaille doit être sourcé
+- Captures d'écran et archives référencées en annexes
+- Indicateurs techniques (IPs, hashes, noms de domaine, adresses de portefeuille) sous forme de code blocks
 
 ---
 
 ### 4. Analysis / Analyse
 
+**ENG**
 - Connections and patterns identified across findings
 - Contradictions or gaps explicitly noted
 - Confidence level for each conclusion:
@@ -47,29 +68,61 @@
 | ⚠️ Probable | Supported by strong indicators — not independently corroborated |
 | ❓ Unconfirmed | Single source or unverified — treat as lead only |
 
+**FR**
+- Connexions et patternes indentifiés parmis les trouvailles
+- Les contradictions et zones d'ombres explicitements mentionnéees
+- Noter un niveau de confiance pour chaque conclusions :
+
+| Niveau | Signification |
+|--------|---------------|
+| ✅ Confirmé | Vérifié par de multiples sources |
+| ⚠️ Probable | Soutenu par de nombreux indicateurs |
+| ❓ Non confirmé | Une seule source ou non vérifié/hypothèse |
+
 ---
 
 ### 5. Conclusion
 
+**ENG**
 - Summary of key takeaways
 - Recommended next steps or actions
 - Limitations of the investigation
 - What would increase confidence in unconfirmed findings
 
+**FR**
+- Synthèse des points clés
+- Prochaines étapes/actions recommandées
+- Limitations de l'investigation
+- Éléments susceptibles de renforcer la fiabilité des conclusions non confirmées
+
 ---
 
 ### 6. Sources & References
 
+**ENG**
 - All sources listed with full URLs and access dates
 - Archived versions (Wayback Machine, archive.ph) where available
 - Raw data files or exports referenced
+
+**FR**
+- Toutes les sources répertoriées avec URL complètes et dates de consultation
+- Versions archivées (Wayback Machine, archive.ph) lorsque disponibles
+- Fichiers de données brutes ou exports référencés
 
 ---
 
 ## ⚠️ Reminders / Rappels
 
+**ENG**
 - Never include raw PII (Personally Identifiable Information) without necessity
 - Always clearly distinguish facts from assessments and interpretations
 - Date and sign every report
 - Specify the confidence level for every non-trivial claim
 - Never publish findings that could endanger a source or an individual
+
+**FR**
+- Ne jamais inclure de données à caractère personnel (PII) brutes sans nécessité absolue
+- Toujours distinguer clairement les faits des évaluations et des interprétations
+- Dater et signer chaque rapport
+- Préciser le niveau de confiance pour chaque affirmation non triviale
+- Ne jamais publier de conclusions susceptibles de mettre en danger une source ou un individu
