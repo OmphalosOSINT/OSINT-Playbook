@@ -113,3 +113,5 @@
 - **Archiver immédiatement** : les contenus disparaissent ; le web en direct n’est pas une source fiable.
 - **Protéger vos méthodes** : gardez votre sécurité opérationnelle (OPSEC) à l'esprit à chaque étape.
 - **Savoir s'arrêter** : toute investigation a une fin ; la dérive des objectifs produit du bruit, pas du renseignement.
+
+> *Back to [Main Playbook](../README.md)*
