@@ -126,3 +126,5 @@
 - Dater et signer chaque rapport
 - Préciser le niveau de confiance pour chaque affirmation non triviale
 - Ne jamais publier de conclusions susceptibles de mettre en danger une source ou un individu
+
+> *Back to [Main Playbook](../README.md)*
