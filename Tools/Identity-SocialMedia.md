@@ -136,3 +136,9 @@
 Always operate within legal boundaries. Never access private data or use findings to harass individuals. In most jurisdictions, accessing non-public data without authorization is a criminal offense.
 
 Agis toujours dans le respect du cadre légal. N'accède jamais à des données privées et n'utilise pas tes découvertes pour harceler des individus. Dans la plupart des juridictions, accéder à des données non publiques sans autorisation constitue une infraction pénale.
+
+>*Next [tool](../Tools/Infrastructure-Network.md)*
+
+> *Discover other [tools](../Tools)*
+
+> *Back to [Main Playbook](../README.md)*
