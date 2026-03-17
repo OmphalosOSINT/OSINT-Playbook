@@ -17,6 +17,7 @@
 | Mapillary | Crowdsourced street-level imagery, covers areas Google Street View doesn't | Imagerie au sol crowdsourcée, couvre des zones non couvertes par Google Street View | KartaView, Google Street View | Free | 🇸🇪 Sweden | [mapillary.com](https://www.mapillary.com) |
 | PeakFinder | Mountain and ridge identification from images using panorama simulation | Identification de sommets et de crêtes depuis des images via simulation de panorama | SummitPost | Free | 🇨🇭 Switzerland | [peakfinder.org](https://www.peakfinder.org) |
 | Sentinel Hub | Satellite and multispectral imagery from ESA Sentinel missions | Imagerie satellite et multispectrale des missions ESA Sentinel | Google Earth Engine | Freemium | 🇸🇮 Slovenia | [sentinel-hub.com](https://www.sentinel-hub.com) |
+| Felt | Collaborative cloud-native GIS platform (create, share and embed interactive maps with team annotations) | Plateforme SIG cloud-native collaborative (créer, partager et intégrer des cartes interactives avec annotations d'équipe) | Google My Maps, ArcGIS Online | Freemium | 🇺🇸 USA | [felt.com](https://felt.com) |
 
 ### Reverse Image Search
 
