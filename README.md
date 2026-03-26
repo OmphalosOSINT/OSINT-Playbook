@@ -36,7 +36,9 @@ OSINT-Playbook/
 └── References/
     └── Resources.md
 ```
-
+## Shortcut 
+→[Aviation](Tools/Aviation.md)
+→[
 ---
 
 ## ⚠️ Ethics & Legality / Éthique & Légalité
