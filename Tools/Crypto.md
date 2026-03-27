@@ -16,6 +16,7 @@
 | TRONScan | TRON blockchain explorer, commonly used in illicit finance due to USDT on TRON | Explorateur de la blockchain TRON, fréquemment utilisé dans la finance illicite pour USDT sur TRON | Etherscan | Free | 🇨🇳 China | [tronscan.org](https://tronscan.org) |
 | Solscan | Solana blockchain explorer, transactions, NFTs, DeFi activity | Explorateur de la blockchain Solana, transactions, NFTs, activité DeFi | Solana Explorer | Free | 🌐 International | [solscan.io](https://solscan.io) |
 
+
 ### Transaction Tracing & Visualization
 
 | Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
@@ -28,6 +29,7 @@
 | Elliptic | Enterprise blockchain analytics for financial institutions, AML/CFT compliance focus | Analyse blockchain pour les institutions financières, focus conformité AML/CFT | Chainalysis, Crystal, OXT | Paid | 🇬🇧 UK | [elliptic.co](https://www.elliptic.co) |
 | OXT.me | Bitcoin transaction graph analysis | Analyse de graphique des transaction de bitcoin | Chainalysis, Elliptic, Crystal | Free | 🇫🇷 France | [OXT.me](https://oxt.me) |
 
+
 ### Cross-Chain & DeFi Intelligence
 
 | Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
@@ -39,7 +41,7 @@
 
 ## 🔎 Methodology / Méthodologie
 
-**EN**
+🇬🇧
 1. Identify the wallet address, note the blockchain (Bitcoin, Ethereum, TRON, Solana, etc.)
 2. Explore transaction history via the appropriate blockchain explorer
 3. Trace fund flows using visualization tools (Breadcrumbs, Arkham)
@@ -50,7 +52,7 @@
 8. Pivot to identity data (OSINT Industries, Arkham) to link wallet to real-world identity
 9. Document the full transaction trail with timestamps and block numbers
 
-**FR**
+🇫🇷
 1. Identifier l'adresse du portefeuille, noter la blockchain concernée (Bitcoin, Ethereum, TRON, Solana, etc.)
 2. Explorer l'historique des transactions via l'explorateur blockchain approprié
 3. Tracer les flux de fonds via des outils de visualisation (Breadcrumbs, Arkham)
@@ -65,7 +67,7 @@
 
 ## 🚩 Key Red Flags / Signaux d'alerte
 
-**ENG**
+🇬🇧
 | Red Flag | Possible Implication |
 |----------|---------------------|
 | Use of mixing or tumbling services | Active attempt to obscure fund origin |
@@ -76,7 +78,7 @@
 | Large transactions to unhosted wallets | Potential evasion of reporting obligations |
 | Cross-chain bridge usage immediately after suspicious activity | Complex layering attempt |
 
-**FR**
+🇫🇷
 | Signal d’alerte | Implication possible |
 | --------------- | -------------------- |
 | Utilisation de services de mixage ou de tumbling | Tentative active de masquer l’origine des fonds |
@@ -92,6 +94,7 @@
 
 ## 💡 Tips & Good Practices / Conseils
 
+🇬🇧
 - Bitcoin and Ethereum are pseudonymous, not anonymous, the full transaction trail is permanently public
 - TRON (TRC-20 USDT) is the preferred network for illicit stablecoin transfers, never overlook it
 - Follow the money to exchanges, that is where identities get linked through KYC
@@ -99,8 +102,8 @@
 - DeFi protocols add complexity but the blockchain trail always exists, cross-chain bridges included
 - Arkham's entity labeling can save hour, always check it before manual tracing
 - A single known address in a cluster can deanonymize the entire wallet network
-
-**FR**
+  
+🇫🇷
 - Le Bitcoin et l'Ethereum sont pseudonymes, pas anonymes, l’historique complet des transactions est publiquement et définitivement accessible
 - TRON (TRC-20 USDT) est le réseau privilégié pour les transferts illicites de stablecoins, ne l’ignore jamais
 - Suis l’argent jusqu’aux exchanges, c’est là que les identités sont associées via le KYC
@@ -108,6 +111,7 @@
 - Les protocoles DeFi ajoutent de la complexité, mais la trace sur la blockchain existe toujours, y compris pour les ponts inter-chaînes
 - L’étiquetage des entités par Arkham peut faire gagner des heures, vérifie-le toujours avant de tracer manuellement
 - Une seule adresse connue dans un cluster peut dé-anonymiser l’ensemble du réseau de portefeuilles
+
 ---
 
 ---
@@ -119,7 +123,7 @@
 - [Breadcrumbs App](https://www.breadcrumbs.app)
 - [Bellingcat — Crypto Investigations](https://www.bellingcat.com)
 
-
+Tu peux te rendre [ici](https://github.com/OmphalosOSINT/Awesome-OSINT-Toolbox/blob/main/Tools/Crypto.md) pour avoir accès à une boîte à outils crypto plus complète/You can go [here](https://github.com/OmphalosOSINT/Awesome-OSINT-Toolbox/blob/main/Tools/Crypto.md) to access a more comprehensive crypto toolkit 
 >*Next [tool](../Tools/CyberBreaches&DarkWeb.md)*
 
 > *Discover other [tools](../Tools)*
