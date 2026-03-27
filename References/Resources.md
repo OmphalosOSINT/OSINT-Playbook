@@ -6,8 +6,8 @@
 
 ## 📖 Essential Reading / Lecture essentielle
 
-| Resource | Type | Language | Link |
-|----------|------|----------|------|
+| Resource | Type | 🇬🇧/🇫🇷 | Link |
+|----------|------|-------|------|
 | Bellingcat Guides | Tutorials & investigations |🇬🇧| [bellingcat.com](https://www.bellingcat.com/category/resources/) |
 | IntelTechniques Blog | Tools & methodology |🇬🇧| [inteltechniques.com](https://inteltechniques.com/blog/) |
 | The OSINT Curious Project | Community & writeups |🇬🇧| [osintcurio.us](https://osintcurio.us) |
@@ -21,8 +21,8 @@
 
 ## 🎓 Training & Certifications / Formation
 
-| Resource | Type | Language | Link |
-|----------|------|----------|------|
+| Resource | Type | 🇬🇧/🇫🇷 | Link |
+|----------|------|-------|------|
 | Bellingcat Online Workshops | Free workshops | 🇬🇧 | [bellingcat.com](https://www.bellingcat.com/workshops/) |
 | OSINT Curious Webinars | Free webinars | 🇬🇧 | [osintcurio.us](https://osintcurio.us) |
 | Michael Bazzell Podcast | Podcast & training | 🇬🇧 | [inteltechniques.com](https://inteltechniques.com/podcast.html) |
@@ -34,8 +34,8 @@
 
 ## 🎙️ Podcasts & Communities
 
-| Resource | Type | Link |
-|----------|------|------|
+| Resource | Type | 🇬🇧/🇫🇷 | Link |
+|----------|------|-------|------|
 | The Privacy, Security & OSINT Show | Podcast | 🇬🇧 | [inteltechniques.com](https://inteltechniques.com/podcast.html) |
 | OSINT Curious | Podcast & YouTube | 🇬🇧 | [osintcurio.us](https://osintcurio.us) |
 | Reddit r/OSINT | Community | 🇬🇧 | [reddit.com/r/OSINT](https://www.reddit.com/r/OSINT/) |
@@ -46,8 +46,8 @@
 
 ## 🛠️ Master Tool Lists / Listes d'outils complètes
 
-| Resource | Language | Link |
-|----------|----------|------|
+| Resource | 🇬🇧/🇫🇷 | Link |
+|----------|-------|------|
 | Bellingcat Online Investigation Toolkit | 🇬🇧 | [Google Sheets](https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ) |
 | OSINT Framework | 🇬🇧 | [osintframework.com](https://osintframework.com) |
 | Awesome OSINT (GitHub) | 🇬🇧 | [GitHub](https://github.com/jivoi/awesome-osint) |
