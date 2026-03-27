@@ -45,7 +45,7 @@
 
 ## 🔎 Methodology / Méthodologie
 
-**EN**
+🇬🇧
 1. Identify the target company, full legal name, registration number, country of incorporation
 2. Search national and international company registries (OpenCorporates, Pappers, Companies House)
 3. Map the corporate structure, subsidiaries, parent companies, affiliated entities
@@ -56,7 +56,7 @@
 8. Analyze financial data and flag anomalies
 9. Document the full corporate network with source attribution
 
-**FR**
+🇫🇷
 1. Identifier l'entreprise cible, raison sociale complète, numéro d'enregistrement, pays de constitution
 2. Rechercher dans les registres nationaux et internationaux (OpenCorporates, Pappers, Companies House)
 3. Cartographier la structure corporate, filiales, maisons mères, entités affiliées
@@ -71,7 +71,7 @@
 
 ## 🚩 Key Red Flags / Signaux d'alerte
 
-**ENG**
+🇬🇧
 | Red Flag | Possible Implication |
 |----------|---------------------|
 | Multiple companies registered at the same address | Shell company network |
@@ -82,7 +82,7 @@
 | Director shares name/address with dozens of other companies | Professional nominee director |
 | Company incorporated shortly before a major contract | Purpose-built vehicle |
 
-**FR**
+🇫🇷
 | Signal d’alerte | Implication possible |
 | ----------------| ---------------------|
 | Plusieurs entreprises enregistrées à la même adresse | Réseau de sociétés écrans |
@@ -97,7 +97,7 @@
 
 ## 💡 Tips & Good Practices / Conseils
 
-**ENG**
+🇬🇧
 - Always search for the Ultimate Beneficial Owner (UBO) — not just the registered director
 - Shell companies are often layered across multiple jurisdictions — follow each layer
 - LinkedIn is underrated for mapping corporate structure and identifying key individuals
@@ -106,7 +106,7 @@
 - Offshore leaks databases are freely searchable — run every target through them as a matter of routine
 - GLEIF is essential for financial investigations — it links LEI codes to verified corporate identities
 
-**FR**
+🇫🇷
 - Cherche toujours le bénéficiaire effectif ultime (UBO), pas seulement le dirigeant enregistré
 - Les sociétés écrans sont souvent réparties sur plusieurs juridictions, suis chaque niveau de la structure
 - LinkedIn est sous-estimé pour cartographier la structure d’une entreprise et identifier les personnes clés
@@ -125,6 +125,8 @@
 - [OpenSanctions](https://www.opensanctions.org)
 - [Pappers](https://www.pappers.fr)
 - [FATF Guidance on Beneficial Ownership](https://www.fatf-gafi.org)
+
+Tu peux te rendre [ici](https://github.com/OmphalosOSINT/Awesome-OSINT-Toolbox/blob/main/Tools/Corporate.md) pour avoir accès à une boîte à outils crypto plus complète/You can go [here](https://github.com/OmphalosOSINT/Awesome-OSINT-Toolbox/blob/main/Tools/Corporate.md) to access a more comprehensive crypto toolkit
 
 >*Next [tool](../Tools/Crypto.md)*
 
