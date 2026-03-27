@@ -7,15 +7,15 @@
 ## 📖 Essential Reading / Lecture essentielle
 
 | Resource | Type | Language | Link |
-|----------|------|-----|------|
-| Bellingcat Guides | Tutorials & investigations | 🇬🇧 | [bellingcat.com](https://www.bellingcat.com/category/resources/) |
-| IntelTechniques Blog | Tools & methodology | 🇬🇧 | [inteltechniques.com](https://inteltechniques.com/blog/) |
-| The OSINT Curious Project | Community & writeups | 🇬🇧 | [osintcurio.us](https://osintcurio.us) |
-| OSINT Framework | Tools directory | 🇬🇧 | [osintframework.com](https://osintframework.com) |
-| Trace Labs | CTF & community | 🇬🇧 | [tracelabs.org](https://www.tracelabs.org) |
-| OSINT-FR | French-language tools, CTF & community | 🇫🇷 | [osintfr.com](https://www.osintfr.com) |
-| First Draft | Verification & media literacy resources | 🇬🇧 | [firstdraftnews.org](https://firstdraftnews.org) |
-| EU DisinfoLab | Disinformation investigations | 🇬🇧 | [disinfo.eu](https://www.disinfo.eu) |
+|----------|------|----------|------|
+| Bellingcat Guides | Tutorials & investigations |🇬🇧| [bellingcat.com](https://www.bellingcat.com/category/resources/) |
+| IntelTechniques Blog | Tools & methodology |🇬🇧| [inteltechniques.com](https://inteltechniques.com/blog/) |
+| The OSINT Curious Project | Community & writeups |🇬🇧| [osintcurio.us](https://osintcurio.us) |
+| OSINT Framework | Tools directory |🇬🇧| [osintframework.com](https://osintframework.com) |
+| Trace Labs | CTF & community |🇬🇧| [tracelabs.org](https://www.tracelabs.org) |
+| OSINT-FR | French-language tools, CTF & community |🇫🇷| [osintfr.com](https://www.osintfr.com) |
+| First Draft | Verification & media literacy resources |🇬🇧| [firstdraftnews.org](https://firstdraftnews.org) |
+| EU DisinfoLab | Disinformation investigations |🇬🇧| [disinfo.eu](https://www.disinfo.eu) |
 
 ---
 
