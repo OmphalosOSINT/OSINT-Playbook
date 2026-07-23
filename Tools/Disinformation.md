@@ -21,7 +21,6 @@
 | Google Fact Check Explorer | Searchable database of verified fact-checks from accredited organizations worldwide | Base de données de fact-checks vérifiés provenant d'organisations accréditées dans le monde | AFP Fact Check, Snopes | Free | 🇺🇸 USA | [toolbox.google.com/factcheck](https://toolbox.google.com/factcheck/explorer) |
 | Hoaxy | Visualize the spread of claims and fact-checks across Twitter/X — timeline and network view | Visualiser la propagation de contenus et fact-checks sur Twitter/X — vue chronologique et réseau | Gephi (manual) | Free | 🇺🇸 USA | [hoaxy.osome.iu.edu](https://hoaxy.osome.iu.edu) |
 | IntelX | Search disinformation narratives across paste sites, forums and dark web sources | Rechercher des narratifs de désinformation sur les paste sites, forums et sources dark web | Maltego | Freemium | 🇩🇪 Germany | [intelx.io](https://intelx.io) |
-| CrowdTangle | Meta social media content tracking — trace content virality across Facebook, Instagram | Suivi de contenus sur les réseaux sociaux Meta — tracer la viralité sur Facebook, Instagram | IntelX | Free (researchers) | 🇺🇸 USA | [crowdtangle.com](https://www.crowdtangle.com) |
 
 ### Synthetic Media Detection
 
