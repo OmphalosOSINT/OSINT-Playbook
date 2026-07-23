@@ -41,7 +41,6 @@
 | Skrapp.io | LinkedIn-integrated B2B email finder with bulk export | Recherche d'emails B2B intégrée à LinkedIn avec export en masse | Hunter.io, Prospeo | Freemium (100 credits/mo free) | 🌐 International | [skrapp.io](https://skrapp.io) |
 | Email Format | Identify a company's email naming convention from known addresses | Identifier la convention de nommage des emails d'une entreprise depuis des adresses connues | Hunter.io (domain search) | Free | 🌐 International | [email-format.com](https://www.email-format.com) |
 | Skymem | Domain-based email discovery and bulk search — no signup required | Découverte d'emails par domaine et recherche en masse sans inscription | Email Format, Hunter.io | Free | 🌐 International | [skymem.info](https://www.skymem.info) |
-| FindEmail | Email finder and leak database cross-referencing — dual-purpose investigation tool | Recherche d'emails avec croisement des bases de données de fuites | Hunter.io, Holehe | Freemium | 🌐 International | [findemail.io](https://findemail.io) |
 
 ### X-Ray & Advanced Search
 
