@@ -24,7 +24,7 @@
 | OSINT Industries | Real-time identity pivot from email, phone, username or crypto wallet (1500+ sources, geospatial mapping and activity timeline) | Pivot identitaire temps réel depuis email, téléphone, pseudo ou wallet crypto -1500+ sources, cartographie géospatiale et timeline d'activité) | Epieos, Predicta Search | Paid (free tier for LE/press) | 🇬🇧 UK | [osint.industries](https://www.osint.industries) |
 | Predicta Search | Digital footprint lookup from email, phone, username or name, returns associated accounts across platforms | Lookup d'empreinte numérique depuis email, téléphone, pseudo ou nom, retourne les comptes associés sur différentes plateformes | OSINT Industries, Epieos | Free | 🌐 International | [predictasearch.com](https://www.predictasearch.com) |
 | Maltego | Visual relationship mapping and entity pivoting, the standard for complex investigations | Cartographie visuelle des relations et pivoting entre entités, la référence pour les investigations complexes | SpiderFoot, Recon-ng | Freemium | 🇩🇪 Germany | [maltego.com](https://www.maltego.com) |
-| SpiderFoot | Automated OSINT collection and entity correlation (100+ data sources) | Collecte OSINT automatisée et corrélation d'entités (100+ sources de données) | Maltego, Recon-ng | Free (open source) | 🌐 International | [spiderfoot.net](https://www.spiderfoot.net) |
+| SpiderFoot | Automated OSINT collection and entity correlation (100+ data sources) | Collecte OSINT automatisée et corrélation d'entités (100+ sources de données) | Maltego, Recon-ng | Free (open source) | 🌐 International | [spiderfoot.net](https://spiderfoot.tools/) |
 
 ### Email Finders & Verifiers
 
