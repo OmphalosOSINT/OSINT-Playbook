@@ -48,7 +48,6 @@
 | Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
 |------|----------------|-----------------|--------------|----|----|------|
 | Ahmia | Ethical Tor hidden services search engine accessible from the clearnet — indexes .onion sites | Moteur de recherche éthique des services cachés Tor accessible depuis le web classique | DarkSearch, OnionSearch | Free | 🇫🇮 Finland | [ahmia.fi](https://ahmia.fi) |
-| DarkBeast | Dark web monitoring and keyword-based search for brand and data exposure | Veille dark web et recherche par mots-clés pour la surveillance d'exposition de marque et de données | IntelX, Ahmia | Paid | 🌐 International | [darkbeast.io](https://darkbeast.io) |
 | Tor Browser | Anonymous access to .onion sites via the Tor network | Accès anonyme aux sites .onion via le réseau Tor | — | Free | 🌐 International | [torproject.org](https://www.torproject.org) |
 | OnionSearch | CLI tool for searching multiple dark web search engines simultaneously | Outil CLI pour rechercher simultanément sur plusieurs moteurs dark web | Ahmia | Free | 🌐 International | [GitHub](https://github.com/megadose/OnionSearch) |
 
