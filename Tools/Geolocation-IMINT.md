@@ -38,6 +38,7 @@
 |------|----------------|-----------------|--------------|----|----|------|
 | ExifTool | Extract and analyze metadata from images, documents and videos (GPS, device, timestamp) | Extraire et analyser les métadonnées des images, documents et vidéos (GPS, appareil, horodatage) | Jeffrey's Exif Viewer, Exifdata.com | Free | 🇦🇺 Australia | [exiftool.org](https://exiftool.org) |
 | Jeffrey's Exif Viewer | Online EXIF metadata viewer | Visualiseur de métadonnées EXIF en ligne | ExifTool | Free | 🇺🇸 USA | [exifdata.com](https://www.exifdata.com) |
+| MetadataRemover.ai Metadata Viewer | Browser-local EXIF/IPTC/XMP inspection; corroborate metadata because it may be edited or stripped | Inspection locale EXIF/IPTC/XMP dans le navigateur ; recouper les métadonnées car elles peuvent être modifiées ou supprimées | ExifTool, Jeffrey's Exif Viewer | Free | 🌐 International | [metadataremover.ai](https://metadataremover.ai/metadata-viewer) |
 
 ### Image Authenticity & Deepfake Detection
 
