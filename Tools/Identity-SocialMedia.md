@@ -10,6 +10,7 @@
 
 | Tool | Usage (English) | Usages (French) | Alternatives | 💰 | 🌍 | Link |
 |------|----------------|-----------------|--------------|----|----|------|
+| Consensus OSINT | Username, email and phone lookups with enriched results and evidence graphs | Recherche par pseudo, e-mail et téléphone avec résultats enrichis et graphes de liens | Maigret, Sherlock | Free | 🌐 International | [GitHub](https://github.com/OSINT-Experts-Society/Consensus-OSINT) |
 | Sherlock | Username search across 300+ platforms (CLI tool) | Recherche de pseudos sur plus de 300 plateformes (outil CLI) | Maigret, WhatsMyName | Free | 🌐 International | [GitHub](https://github.com/sherlock-project/sherlock) |
 | Maigret | Advanced username profiling across 3000+ sites with relationship graph output | Profilage avancé par pseudo sur plus de 3000 sites avec graphe de relations | Sherlock, Social-Analyzer | Free | 🇷🇺 Russia | [GitHub](https://github.com/soxoj/maigret) |
 | WhatsMyName | Username enumeration across platforms with web interface — no install required | Énumération de pseudos sur de nombreuses plateformes via interface web | Sherlock, Maigret | Free | 🌐 International | [whatsmyname.app](https://whatsmyname.app) |
